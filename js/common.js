@@ -9,7 +9,7 @@ sizecheck();
 
 $(function () {
 
-  if (w > 769) {
+  if (w > 749) {
 } else { 
   $("header .drawer").click(function(){
   $('body').toggleClass('nav-open');

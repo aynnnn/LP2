@@ -106,8 +106,8 @@ header .navbar ul li.contact a:hover {
 }
 
 .top .download {
-  display: inline-flex;
-  margin: 5% 10%;
+  display: flex;
+  justify-content: center;
 }
 
 .top .download .apple {
@@ -329,6 +329,7 @@ header .navbar ul li.contact a:hover {
 .faq .inner {
   position: relative;
   z-index: 2;
+  text-align: center;
 }
 
 .faq .txt {
